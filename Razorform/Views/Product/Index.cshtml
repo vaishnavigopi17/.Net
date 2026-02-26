@@ -1,0 +1,17 @@
+﻿@model List<razor.Models.product>
+<h2>Product List</h2>
+<table border="20" cellpadding="10">
+    <tr>
+        <th>Product ID</th>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+    @foreach(var product in Model)
+    {
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+        </tr>
+    }
+</table>
