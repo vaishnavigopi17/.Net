@@ -1,0 +1,26 @@
+﻿@model registration.Models.register
+<h2> Registation Form</h2>
+
+<form asp-action="Index" method="post">
+    <lable>Name:</lable><br />
+    <input asp-for="Name" />
+    <span asp-validation-for="Name" style=" colour:red"></span><br />
+
+    <lable>Email:</lable><br />
+    <input asp-for="Email" />
+    <span asp-validation-for="Email" style=" colour:red"></span><br />
+
+    <lable>Password:</lable><br />
+    <input asp-for="Password" type="password" "  />
+    <span asp-validation-for="Password" style=" colour:red"></span><br />
+
+    <lable> Age:</lable><br />
+    <input asp-for="Age" />
+    <span asp-validation-for="Age" style=" colour:red"></span><br />
+
+    <button type="submit"> Register</button>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptspartial" />
+
+}

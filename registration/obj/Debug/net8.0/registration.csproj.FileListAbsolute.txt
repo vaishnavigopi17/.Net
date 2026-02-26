@@ -1,0 +1,8 @@
+C:\Users\Student 1\Desktop\.NET049\registration\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Student 1\Desktop\.NET049\registration\obj\Debug\net8.0\registration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student 1\Desktop\.NET049\registration\obj\Debug\net8.0\registration.AssemblyInfoInputs.cache
+C:\Users\Student 1\Desktop\.NET049\registration\obj\Debug\net8.0\registration.AssemblyInfo.cs
+C:\Users\Student 1\Desktop\.NET049\registration\obj\Debug\net8.0\registration.csproj.CoreCompileInputs.cache
+C:\Users\Student 1\Desktop\.NET049\registration\obj\Debug\net8.0\registration.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Student 1\Desktop\.NET049\registration\obj\Debug\net8.0\registration.RazorAssemblyInfo.cache
+C:\Users\Student 1\Desktop\.NET049\registration\obj\Debug\net8.0\registration.RazorAssemblyInfo.cs
