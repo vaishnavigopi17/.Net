@@ -1,0 +1,5 @@
+﻿<h2>Welcome @User.Identity.Name</h2>
+<p>Your Role: @User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value</p>
+<a href="/Admin">Admin Page</a>
+<a href="/User">User Page</a>
+<a href="/Account/Logout">Logout</a>
