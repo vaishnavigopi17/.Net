@@ -1,0 +1,31 @@
+﻿@page
+@model WebApp14.Pages.DataBindingModel
+<h2>Data Binding</h2>
+<form method="post">
+    Id:
+        <input asp-for="Person.Id"/>
+    Name:
+        <input asp-for="Person.Name" />
+    Age:
+        <input asp-for="Person.Age" />
+    <button type="submit">Submit</button>
+</form>
+@if (DataBindingModel.People.Count>0)
+{
+    <h3>Submitted Data</h3>
+    <table border="3">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        @foreach (var person in DataBindingModel.People)
+        {
+            <tr>
+                <td>@person.Id</td>
+                <td>@person.Name</td>
+                <td>@person.Age</td>
+            </tr>
+        }
+    </table>
+}
